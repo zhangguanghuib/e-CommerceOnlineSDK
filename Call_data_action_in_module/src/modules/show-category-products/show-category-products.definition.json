@@ -1,0 +1,32 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "show-category-products",
+    "name": "show-category-products",
+    "description": "Shows products of based on a category id",
+    "categories": ["show-category-products"],
+    "tags": ["Additional tags go here"],
+    "dataActions": {        
+    },    
+    "config": {
+        "categoryId": {
+            "friendlyName": "Category id",
+            "description": "Category id",
+            "type": "number",
+            "scope": "module",
+            "required": true
+        },
+        "itemsPerPage": {
+            "friendlyName": "Items per page",
+            "description": "Number of items to be displayed per page",
+            "type": "number",
+            "scope": "module",
+            "required": true
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}
