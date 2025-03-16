@@ -10,6 +10,7 @@ url: https://localhost:4000/modules?type=sample-current-conditions:sample-curren
 
 
 ## Running in live site:
+https://dyncommerce3uat.dynamics365commerce.ms/ghfabrikam2/cityweathercondition?domain=www.dyncommerce3uat.com <br/>
 ![image](https://github.com/user-attachments/assets/50b714c0-5f92-41b7-ae2e-113beeab6972)
 
 ## Weather API cal:
