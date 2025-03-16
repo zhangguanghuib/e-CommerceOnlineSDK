@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Helloworld renders correctly 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col"
+  >
+    <h2>
+      Config Value: 
+      helloworld
+    </h2>
+  </div>
+</div>
+`;
