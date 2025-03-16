@@ -10,7 +10,7 @@ url: https://localhost:4000/modules?type=sample-current-conditions:sample-curren
 
 
 ## Running in live site:
-![image](https://github.com/user-attachments/assets/9118aef2-ebad-4f7c-a1a3-f31ba49df6f2)
+![image](https://github.com/user-attachments/assets/50b714c0-5f92-41b7-ae2e-113beeab6972)
 
 ## Weather API cal:
 https://api.openweathermap.org/data/2.5/group?units=imperial&lang=en&appid=20d#####c995ba23fad03e1a291fa9b9&id=2643743,5856195,2147714,5809844
