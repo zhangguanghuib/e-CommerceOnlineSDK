@@ -1,17 +1,17 @@
 # Msdyn365 Commerce online
 
-## License
-License is listed in the [LICENSE](./LICENSE) file.
+## Module configuration
+![image](https://github.com/user-attachments/assets/d7878f07-cb7e-4093-911a-561c9c5e3b83)<br/>
+![image](https://github.com/user-attachments/assets/bd967064-f926-463b-a97a-0d8e05613456)
 
-## Starter kit license
-License for starter kit is listed in the [LICENSE](./module-library/LICENSE) file of starter pack.
+## Running in localhost
+url: https://localhost:4000/modules?type=sample-current-conditions:sample-current-conditions&theme=fall<br/>
+![image](https://github.com/user-attachments/assets/25401e41-a77a-46d1-bb2d-cb3185a2f053)
 
-## Online Documentaiton
-Please refer to our [Online documentation](https://docs.microsoft.com/en-us/dynamics365/commerce/e-commerce-extensibility/sdk-getting-started) for getting started guide and environment setup.
 
-## Issues/Discussions
-Please route all your questions to https://community.dynamics.com/365/commerce/f/dynamics-365-commerce-forum
+## Running in live site:
+![image](https://github.com/user-attachments/assets/9118aef2-ebad-4f7c-a1a3-f31ba49df6f2)
 
-## Third party Image and Video Usage restrictions
-
-The software may include third party images and videos that are for personal use only and may not be copied except as provided by Microsoft within the demo websites.  You may install and use an unlimited number of copies of the demo websites., You may not publish, rent, lease, lend, or redistribute any images or videos without authorization from the rights holder, except and only to the extent that the applicable copyright law expressly permits doing so.
+## Weather API cal:
+https://api.openweathermap.org/data/2.5/group?units=imperial&lang=en&appid=20d#####c995ba23fad03e1a291fa9b9&id=2643743,5856195,2147714,5809844
+![image](https://github.com/user-attachments/assets/5149f487-be0c-4421-83ec-e9ccc274f64c)
