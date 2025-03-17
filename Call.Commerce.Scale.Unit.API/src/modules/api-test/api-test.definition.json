@@ -1,0 +1,34 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "api-test",
+    "name": "api-test",
+    "description": "Please add meaningful description for authoring",
+    "categories": [
+        "api-test"
+    ],
+    "tags": [
+        "CSU API Test"
+    ],
+    "dataActions": {
+        "categories": {
+            "path": "../../actions/get-category-list.action",
+            "runOn": "client"
+        }
+    },
+    "config": {
+        "showText": {
+            "friendlyName": "showText",
+            "description": "example config value",
+            "type": "string",
+            "default": "Example Config Value",
+            "scope": "module",
+            "group": "Layout Properties"
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}
