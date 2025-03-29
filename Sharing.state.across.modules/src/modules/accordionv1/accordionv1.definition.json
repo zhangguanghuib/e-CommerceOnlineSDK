@@ -1,0 +1,24 @@
+{
+    "$type": "moduleDefinition",
+    "friendlyName": "Accordion V1",
+    "name": "accordionv1",
+    "description": "An accordion module expands in place to show Additional information. Any content can be placed inside this module",
+    "categories": ["Organize"],
+    "tags": ["Customized Accordion V1"],
+    "dataActions": {  
+        "accordionExpandedState": {
+            "path": "../../actions/accordion-state.action",
+            "runOn": "client"
+        }      
+    },    
+    "slots" : {
+        "accordionItems": {
+            "friendlyName": "Accordion Item slot",
+            "description": "Accordion Item slot",
+            "allowedTypes": ["accordion-item"],
+            "allowedCategories": ["accordion_accordionItems"],
+            "min": 1,
+            "max": 99
+        }
+    }
+}
