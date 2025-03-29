@@ -1,0 +1,15 @@
+{
+  "id": "R1Module1",
+  "config": {
+    "inlineScript": "alert('Hello World!, this message is from inject script');",
+    "defer": true,
+    "crossorigin": ["anonymous"],
+    "async": false
+  },
+  "data": {
+    "actionResponse": {
+      "text": "Sample Action Response"
+    }
+  },
+  "typeName": "my-script-injector"
+}
