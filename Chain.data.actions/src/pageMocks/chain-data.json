@@ -1,0 +1,65 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "typeName": "core-root",
+        "id": "core-root_mf61nad",
+        "friendlyName": "Core root 1",
+        "config": {},
+        "modules": {
+            "body": [
+                {
+                    "id": "default-page_0",
+                    "typeName": "default-page",
+                    "config": {
+                        "pageTheme": "summer"
+                    },
+                    "modules": {
+                        "primary": [
+                            {
+                                "id": "productFeature__0",
+                                "typeName": "product-feature",
+                                "config": {
+                                    "recordId": "68719491411",
+                                    "imageAlignment": "left",
+                                    "productTitle": "Geometric Print Tie",
+                                    "productDetails": "A geometric-style red and orange tie crafted from wool.",
+                                    "productImage": {
+                                        "src": "https://images-au-prod.cms.commerce.dynamics.com/cms/api/rrjxclpqcv/imageFileData/ML2jfH?pubver=1",
+                                        "altText": "Black Striped Tie"
+                                    },
+                                    "buttonText": "Buy Now"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "renderingContext": {
+        "locale": "en-US",
+        "urlTokens": {
+            "itemId": "91007",
+            "recordId": "68719491411",
+            "pageType": "Product"
+        },
+        "apiSettings": {
+            "baseUrl": "https://scudvhx80im23808898-rs.su.retail.dynamics.com/",
+            "retailServerEndpointOverrideDomain": null,
+            "channelId": 68719478279,
+            "eCommerceChannelId": "rpbpwaytjjr",
+            "eCommerceCrossChannelId": null,
+            "catalogId": 0,
+            "oun": "128",
+            "baseImageUrl": "https://images-au-prod.cms.commerce.dynamics.com/cms/api/rrjxclpqcv/imageFileData/search?fileName=/",
+            "ratingsReviewsEndpoint": "https://c10e0e63-4cf5-4f80-9440-de9fb6958e38.rnr.ms",
+            "ratingsReviewsProxyEndpoint": "https://dyncommerce3uat.dynamics365commerce.ms/_msdyn365/rnr/",
+            "rnr": {
+                "id": "c10e0e63-4cf5-4f80-9440-de9fb6958e38",
+                "url": "https://c10e0e63-4cf5-4f80-9440-de9fb6958e38.rnr.ms",
+                "proxyUrl": "https://dyncommerce3uat.dynamics365commerce.ms/_msdyn365/rnr/"
+            },
+            "externalCmsBaseUrls": null
+        }
+    }
+}

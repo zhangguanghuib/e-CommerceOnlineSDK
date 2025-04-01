@@ -1,0 +1,24 @@
+[
+    {
+        "CacheObjectType": "SimpleProduct",
+        "CacheKey": "*",
+        "Mock": {
+            "RecordId": 68719492208,
+            "ItemId": "91100",
+            "Name": "Black Striped Tie",
+            "Description": "Narrow stripes stretch across a tie made from Italian silk.",
+            "ProductTypeValue": 4,
+            "DefaultUnitOfMeasure": "pr",
+            "BasePrice": 24.95,
+            "Price": 24.95,
+            "AdjustedPrice": 24.95,
+            "MasterProductId": null,
+            "Components": null,
+            "Dimensions": null,
+            "Behavior": null,
+            "LinkedProducts": null,
+            "PrimaryImageUrl": "https://images-au-prod.cms.commerce.dynamics.com/cms/api/rrjxclpqcv/imageFileData/search?fileName=/Products%2F91091_000_001.png&amp;fallback=/Products/91091_000_001.jpg,/Products/91091_000_001.png,/Products/91091_000_001.webp&amp;m=6&amp;q=80&amp;cropfocalregion=true",
+            "ExtensionProperties": null
+        }
+    }
+]

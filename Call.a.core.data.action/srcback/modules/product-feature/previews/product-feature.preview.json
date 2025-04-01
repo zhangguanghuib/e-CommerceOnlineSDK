@@ -1,0 +1,15 @@
+{
+    "id": "product-feature",
+    "config": {
+      "imageAlignment": "left",
+      "productTitle": "Sample product title",
+      "productDescription": "Sample product title details.",
+      "buttonText": "buy Now"
+    },
+    "data": {
+      "actionResponse": {
+        "text": "Sample Action Response"
+      }
+    },
+    "typeName": "product-feature"
+  }

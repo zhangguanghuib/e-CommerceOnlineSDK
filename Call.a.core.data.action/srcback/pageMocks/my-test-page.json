@@ -1,0 +1,71 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "id": "core-root_0",
+        "typeName": "core-root",
+        "modules": {
+            "body": [
+                {
+                    "id": "default-page_0",
+                    "typeName": "default-page",
+                    "modules": {
+                        "primary": [
+                            {
+                                "id": "product-feature_0",
+                                "typeName": "product-feature",
+                                "config": {
+                                    "imageAlignment": "left",
+                                    "productTitle": "Retro Horn Rimmed Keyhole Nose Bridge Round Sunglasses",
+                                    "productDetails": "High-quality and pioneered with the perfect blend of timeless classic and modern technology with hint of old school glamor.",
+                                    "productImage": {
+                                        "src": "https://images-au-prod.cms.commerce.dynamics.com/cms/api/rrjxclpqcv/imageFileData/ML2jfH?pubver=1",
+                                        "alt": "Retro Horn Rimmed Keyhole Nose Bridge Round Sunglasses"
+                                    },
+                                    "buttonText": "Buy Now"
+                                }
+                            },
+                            {
+                                "id": "product-feature_1",
+                                "typeName": "product-feature",
+                                "config": {
+                                    "imageAlignment": "right",
+                                    "productTitle": "Retro Horn Rimmed Keyhole Nose Bridge Round Sunglasses",
+                                    "productDetails": "High-quality and pioneered with the perfect blend of timeless classic and modern technology with hint of old school glamor.",
+                                    "productImage": {
+                                       "src": "https://images-au-prod.cms.commerce.dynamics.com/cms/api/rrjxclpqcv/imageFileData/ML2jfH?pubver=1",
+                                       "altText": "image alt text"
+                                    },
+                                    "buttonText": "Buy Now"  
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "renderingContext": {
+        "gridSettings": {
+            "xs": {
+                "w": 767
+            },
+            "sm":{
+                "w": 991    
+            },
+            "md":{
+                "w": 1199
+            },
+            "lg":{
+                "w": 1399
+            },
+            "xl":{
+                "w": 1599
+            }
+        },
+        "staticContext": {
+            "staticCdnUrl": "/_scnr/"
+        },
+        "locale": "en-us"
+    },
+    "statusCode": 200
+}

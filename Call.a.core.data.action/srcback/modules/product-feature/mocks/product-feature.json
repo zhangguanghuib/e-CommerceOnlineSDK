@@ -1,0 +1,15 @@
+{
+  "id": "R1Module1",
+  "config": {
+    "imageAlignment": "left",
+    "productTitle": "Black Striped Tie",
+    "productDescription": "Narrow stripes stretch across a tie made from Italian silk.",
+    "productImage": {
+      "src": "https://images-au-prod.cms.commerce.dynamics.com/cms/api/rrjxclpqcv/imageFileData/search?fileName=/Products%2F91091_000_001.png&fallback=/Products/91091_000_001.jpg,/Products/91091_000_001.png,/Products/91091_000_001.webp&m=6&q=80&cropfocalregion=true",
+      "alt": "Black Striped Tie"
+    },
+    "buttonText": "Buy Now",
+    "productIds": "68719495953"
+  },
+  "typeName": "product-feature"
+}

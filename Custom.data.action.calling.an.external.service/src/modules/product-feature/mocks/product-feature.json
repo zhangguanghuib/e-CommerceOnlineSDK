@@ -1,0 +1,14 @@
+{
+  "id": "R1Module1",
+  "config": {
+    "imageAlignment": "left",
+    "productTitle": "Oversize Wayfarer Sunglasses",
+    "productDetails": "The oversised lenses and wayfarer style creates a hipster look, while the red trimming creates a retro feel.",
+    "productImage": {
+      "src": "https://images-au-prod.cms.commerce.dynamics.com/cms/api/rrjxclpqcv/imageFileData/search?fileName=/Products%2F91003_000_001.png&amp;fallback=/Products/91003_000_001.jpg,/Products/91003_000_001.png,/Products/91003_000_001.webp&amp;m=6&amp;q=80&amp;cropfocalregion=true",
+      "altText": "Oversize Wayfarer Sunglasses"
+    },
+    "buttonText": "Buy Now"
+  },
+  "typeName": "product-feature"
+}
