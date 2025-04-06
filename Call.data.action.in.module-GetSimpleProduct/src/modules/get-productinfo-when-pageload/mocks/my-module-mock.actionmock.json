@@ -1,0 +1,9 @@
+{
+    "CacheObjectType": "SimpleproductWithAvailabilityInput",
+    "CacheKey": "getSimpleproductWithAvailabilityInput",
+    "Mock": [
+        {
+            "productId": 68719495953
+        }
+    ]
+}

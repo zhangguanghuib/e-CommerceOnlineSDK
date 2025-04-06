@@ -1,0 +1,25 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "Show product details",
+    "name": "show-product-details",
+    "description": "Show simple product details by product id",
+    "categories": ["show-product-details"],
+    "tags": ["Products"],
+    "dataActions": {        
+    },    
+    "config": {
+       "productId": {
+            "friendlyName": "Product id",
+            "description": "Product id",
+            "type": "number",
+            "scope": "module",
+            "required": true
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}

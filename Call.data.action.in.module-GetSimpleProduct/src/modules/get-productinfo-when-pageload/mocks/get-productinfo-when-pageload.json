@@ -1,0 +1,7 @@
+{
+ "id": "R1Module1",
+  "config": {
+    "productId": "68719495953"
+  },
+  "typeName": "get-productinfo-when-pageload"
+}

@@ -1,0 +1,29 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "get-productinfo-when-pageload",
+    "name": "get-productinfo-when-pageload",
+    "description": "Please add meaningful description for authoring",
+    "categories": ["get-productinfo-when-pageload"],
+    "tags": ["Additional tags go here"],
+    "dataActions": {
+        "simpleproductWithAvailabilities": {
+            "path": "../../actions/get-product.action",
+            "runOn": "client"
+        }        
+    },    
+    "config": {
+        "productId": {
+            "friendlyName": "Product id",
+            "description": "Product id",
+            "type": "number",
+            "scope": "module",
+            "required": true
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}

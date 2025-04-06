@@ -1,0 +1,29 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "show-productavails-when-pageload",
+    "name": "show-productavails-when-pageload",
+    "description": "Please add meaningful description for authoring",
+    "categories": ["show-productavails-when-pageload"],
+    "tags": ["Additional tags go here"],
+    "dataActions": {  
+        "simpleProduct": {
+            "path": "../../actions/get-product.action",
+            "runOn": "server"
+        }     
+    },    
+    "config": {
+        "productId": {
+            "friendlyName": "Product id",
+            "description": "Product id",
+            "type": "number",
+            "scope": "module",
+            "required": true
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}

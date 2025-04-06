@@ -1,0 +1,97 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "typeName": "core-root",
+        "id": "core-root_qcgewk3",
+        "friendlyName": "Core root 1",
+        "config": {},
+        "modules": {
+            "body": [
+                {
+                    "typeName": "default-page",
+                    "id": "default-page",
+                    "friendlyName": "Default Page",
+                    "config": {
+                        "pageCacheTTL": 3600.0,
+                        "pageCacheTTR": 120.0,
+                        "skipToMainText": "Skip to main content",
+                        "shouldCachePage": true,
+                        "pageTheme": "fabrikam"
+                    },
+                    "modules": {
+                        "primary": [
+                            {
+                                "typeName": "default-container",
+                                "id": "default-container 1",
+                                "friendlyName": "Generic container",
+                                "config": { "heading": {}, "layout": "stacked", "containerType": "container", "childrenWidth": "four" },
+                                "modules": {
+                                    "content": [
+                                        {
+                                            "typeName": "show-product-details",
+                                            "id": "show-product-details",
+                                            "friendlyName": "Show Product Details",
+                                            "config": { "productId": 68719495953}
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "renderingContext": {
+        "apiSettings": {
+            "baseUrl": "https://scudvhx80im23808898-rs.su.retail.dynamics.com/",
+            "retailServerEndpointOverrideDomain": null,
+            "channelId": 68719478279,
+            "eCommerceChannelId": "rpbpwaytjjr",
+            "eCommerceCrossChannelId": null,
+            "catalogId": 0,
+            "oun": "128",
+            "baseImageUrl": "https://images-au-prod.cms.commerce.dynamics.com/cms/api/rrjxclpqcv/imageFileData/search?fileName=/",
+            "ratingsReviewsEndpoint": "https://c10e0e63-4cf5-4f80-9440-de9fb6958e38.rnr.ms",
+            "ratingsReviewsProxyEndpoint": "https://dyncommerce3uat.dynamics365commerce.ms/_msdyn365/rnr/",
+            "rnr": {
+                "id": "c10e0e63-4cf5-4f80-9440-de9fb6958e38",
+                "url": "https://c10e0e63-4cf5-4f80-9440-de9fb6958e38.rnr.ms",
+                "proxyUrl": "https://dyncommerce3uat.dynamics365commerce.ms/_msdyn365/rnr/"
+            },
+            "externalCmsBaseUrls": null
+        },
+        "gridSettings": { "xs": { "w": 768 }, "sm": { "w": 991 }, "md": { "w": 1199 }, "lg": { "w": 1599 }, "xl": { "w": 1600 } },
+        "debugMode": 0,
+        "operationId": "ccf4655726c8f243b312985feb411d24",
+        "siteTheme": "fabrikam",
+        "sameSiteRequired": true,
+        "features": {
+            "enable_performance_analysis": true,
+            "enable_react_statics_in_body": true,
+            "enableAuthoringRemoveAndAddModule": true,
+            "enable_react_statics_in_body123": true,
+            "scnr_blob": true,
+            "action_timeout": true,
+            "GeoCookieExpirationTimeOf7days": true,
+            "clientRender_modules": true,
+            "optimize_client_hydrate": true,
+            "client_optimize_hydrate": true,
+            "disable_new_geoLocation_cookie_contract": true,
+            "skip_external_link_catalogid": true,
+            "allow_react_statics_in_body": true,
+            "disable_cors": true,
+            "disable_server_cookie_encoding": true,
+            "enable_render_cache_all": true,
+            "disable_routeerrors_cache": true,
+            "disableRetailProxySW": true,
+            "disable_render_result_compression": true,
+            "async_chunks": true,
+            "defer_chunks": true
+        },
+        "staticContext": {
+            "staticCdnUrl": "/_scnr/"
+        },
+        "locale": "en-us"
+    }
+}

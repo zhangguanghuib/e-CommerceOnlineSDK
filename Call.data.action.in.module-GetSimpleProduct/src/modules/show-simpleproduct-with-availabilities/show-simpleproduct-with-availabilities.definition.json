@@ -1,0 +1,25 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "show-simpleproduct-with-availabilities",
+    "name": "show-simpleproduct-with-availabilities",
+    "description": "Please add meaningful description for authoring",
+    "categories": ["show-simpleproduct-with-availabilities"],
+    "tags": ["Additional tags go here"],
+    "dataActions": {        
+    },    
+    "config": {
+        "productId": {
+            "friendlyName": "Product id",
+            "description": "Product id",
+            "type": "number",
+            "scope": "module",
+            "required": true
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}
