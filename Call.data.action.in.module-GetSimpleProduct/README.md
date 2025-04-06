@@ -24,3 +24,7 @@
 - https://localhost:4000/modules?type=show-productavails-when-pageload&actionMock=show-productavails-when-pageload:my-module-mock 
 // page load data action for producy details and availability
 
+# Git Command:
+## When I tried to push,  I got this error the local file has confliction with remote, then I fix it by this command
+
+- git pull origin main
