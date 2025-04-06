@@ -13,7 +13,7 @@
 - yarn msdyn365 add-module show-product-details
 - yarn msdyn365 add-module show-simpleproduct-with-availabilities
 
-#finlly works:
+# finlly works:
 - http://localhost:4000/page?mock=show-product-with-availabilities // use chained data action in module
 - http://localhost:4000/page?mock=show-category-products  // sample module 
 - http://localhost:4000/page?mock=show-product-details  // use data action in module only for product details
