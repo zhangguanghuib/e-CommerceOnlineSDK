@@ -13,6 +13,7 @@
 - yarn msdyn365 add-module show-product-details
 - yarn msdyn365 add-module show-simpleproduct-with-availabilities
 - yarn msdyn365 add-module show-product-collections
+- yarn msdyn365 add-data-action contoso-get-simple-products
 
 # finlly works:
 - http://localhost:4000/page?mock=show-product-with-availabilities // use chained data action in module
