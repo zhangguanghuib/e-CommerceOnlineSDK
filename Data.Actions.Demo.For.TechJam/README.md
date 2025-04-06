@@ -14,6 +14,7 @@
 - yarn msdyn365 add-module show-simpleproduct-with-availabilities
 - yarn msdyn365 add-module show-product-collections
 - yarn msdyn365 add-data-action contoso-get-simple-products
+- yarn msdyn365 add-module contoso-show-product-collections
 
 # finlly works:
 - http://localhost:4000/page?mock=show-product-with-availabilities // use chained data action in module
@@ -26,6 +27,7 @@
 - https://localhost:4000/modules?type=show-productavails-when-pageload&actionMock=show-productavails-when-pageload:my-module-mock 
 // page load data action for product details and availability
 - http://localhost:4000/page?mock=show-product-collections // Call core data action get-simple-products in module code.
+- http://localhost:4000/page?mock=contoso-show-product-collections // Call core data action get-simple-products in module code.
 # Git Command:
 ## When I tried to push,  I got this error the local file has confliction with remote, then I fix it by this command
 
