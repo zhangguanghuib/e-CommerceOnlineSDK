@@ -1,0 +1,25 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "contoso-show-product-collections",
+    "name": "contoso-show-product-collections",
+    "description": "Please add meaningful description for authoring",
+    "categories": ["contoso-show-product-collections"],
+    "tags": ["Additional tags go here"],
+    "dataActions": {        
+    },    
+    "config": {
+        "productIds": {
+            "friendlyName": "Product ID",
+            "description": "Provide a Product Id that the module will display",
+            "type": "string",
+            "scope": "module",
+            "group": "Content Properties"
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}
