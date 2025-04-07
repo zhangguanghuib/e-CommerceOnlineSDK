@@ -15,7 +15,8 @@
 - yarn msdyn365 add-module show-product-collections
 - yarn msdyn365 add-data-action contoso-get-simple-products
 - yarn msdyn365 add-module contoso-show-product-collections
-
+# Products:
+68719495953,68719495895,68719495907,68719492208,68719495871,68719495954,68719495955,68719495919
 # finlly works:
 - http://localhost:4000/page?mock=show-product-with-availabilities // use chained data action in module
 - http://localhost:4000/page?mock=show-category-products  // sample module 
@@ -33,6 +34,7 @@
 - https://dyncommerce3uat.dynamics365commerce.ms/ghfabrikam2/techjam_show_productavails_when_pageload?domain=www.dyncommerce3uat.com
 - https://dyncommerce3uat.dynamics365commerce.ms/ghfabrikam2/techjam_show_product_collections?domain=www.dyncommerce3uat.com
 - https://dyncommerce3uat.dynamics365commerce.ms/ghfabrikam2/techjam_contoso_show_product_collections?domain=www.dyncommerce3uat.com
+- https://dyncommerce3uat.dynamics365commerce.ms/ghfabrikam2/techjam_show_category_products?domain=www.dyncommerce3uat.com
 # Git Command:
 ## When I tried to push,  I got this error the local file has confliction with remote, then I fix it by this command
 
