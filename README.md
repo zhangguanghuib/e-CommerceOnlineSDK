@@ -1,6 +1,6 @@
 # Frequently-used Command
-1.https://localhost:4000/modules?type=show-category-products
-2.https://localhost:4000/modules?type=product-feature&theme=spring
+- 1.https://localhost:4000/modules?type=show-category-products
+- 2.https://localhost:4000/modules?type=product-feature&theme=spring
 3.yarn msdyn365 clone fabrikam summer
 4.https://localhost:4000/modules?type=product-feature&theme=summer
 
