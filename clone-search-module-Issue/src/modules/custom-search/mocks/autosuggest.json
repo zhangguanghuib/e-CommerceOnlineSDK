@@ -1,0 +1,73 @@
+{
+    "id": "R1Module1",
+    "config": {
+        "topResultsCount": 5.0,
+        "imageSettings": {
+            "quality": 60,
+            "lazyload": true,
+            "viewports": {
+                "xs": {
+                    "w": 40,
+                    "h": 40,
+                    "q": "w=40&h=40&q=60&m=6"
+                },
+                "lg": {
+                    "w": 40,
+                    "h": 40,
+                    "q": "w=40&h=40&q=60&m=6"
+                }
+            }
+        }
+    },
+    "resources": {
+        "productSuggestionHeading": "Go to products",
+        "categorySuggestionHeading": "Search in categories",
+        "suggestFoundMessage": "Suggestion Found",
+        "noSuggestionMessage": "No Suggestion Found"
+    },
+    "data": {
+        "searchState": {
+            "result": {
+                "searchText": "search",
+                "defaultBasicSearchUrl": "https://www.microsoft.com/en-us/search",
+                "searchQueryStringParameter": "q"
+            }
+        },
+        "searchSuggestions": {
+            "Value": "Search",
+            "ExtensionProperties": [
+                {
+                    "Key": "PrimaryImageUri",
+                    "Value": {
+                        "BooleanValue": null,
+                        "ByteValue": null,
+                        "DateTimeOffsetValue": null,
+                        "DecimalValue": null,
+                        "IntegerValue": null,
+                        "LongValue": null,
+                        "StringValue": "https://img-prod-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/search?fileName=/Products%2F81307_000_001.png&w=0&h=772&m=8&q=&w=1600&&m=8"
+                    }
+                },
+                {
+                    "Key": "PrimaryImageAltText",
+                    "Value": {
+                        "BooleanValue": null,
+                        "ByteValue": null,
+                        "DateTimeOffsetValue": null,
+                        "DecimalValue": null,
+                        "IntegerValue": null,
+                        "LongValue": null,
+                        "StringValue": "Demo data product image"
+                    }
+                }
+            ]
+        },
+        "channelConfiguration": {
+            "result": {
+                "Currency": "USD",
+                "PickupDeliveryModeCode": "2"
+            }
+        }
+    },
+    "typeName": "autosuggest"
+}

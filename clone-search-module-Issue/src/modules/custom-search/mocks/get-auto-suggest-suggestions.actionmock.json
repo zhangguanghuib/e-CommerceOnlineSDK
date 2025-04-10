@@ -1,0 +1,141 @@
+{
+    "CacheObjectType": "AutoSuggestSearchSuggestions",
+    "CacheKey": "AutoSuggestSearchSuggestions",
+    "Mock": {
+        "AllSearchResults" : [
+            {
+                "SuggestionType": "Keyword",
+                "Value": "{Boo}t Cut Jeans",
+                "ExtensionProperties": [
+                    {
+                        "Key": "PrimaryImageUri",
+                        "Value": {
+                            "BooleanValue": null,
+                            "ByteValue": null,
+                            "DateTimeOffsetValue": null,
+                            "DecimalValue": null,
+                            "IntegerValue": null,
+                            "LongValue": null,
+                            "StringValue": "Products/2010101.png"
+                        },
+                        "ImageUrl": "https://img-prod-cms-mr-microsoft-com.akamaized.net/cms/api/fabrikam/imageFileData/MA1VFr?ver=fa9f"
+                    },
+                    {
+                        "Key": "PrimaryImageAltText",
+                        "Value": {
+                            "BooleanValue": null,
+                            "ByteValue": null,
+                            "DateTimeOffsetValue": null,
+                            "DecimalValue": null,
+                            "IntegerValue": null,
+                            "LongValue": null,
+                            "StringValue": "Demo data product image"
+                        }
+                    }
+                ]
+            },
+            {
+                "SuggestionType": "Keyword",
+                "Value": "Cowboy {Boo}t",
+                "ExtensionProperties": [
+                    {
+                        "Key": "PrimaryImageUri",
+                        "Value": {
+                            "BooleanValue": null,
+                            "ByteValue": null,
+                            "DateTimeOffsetValue": null,
+                            "DecimalValue": null,
+                            "IntegerValue": null,
+                            "LongValue": null,
+                            "StringValue": "Products/2010101.png"
+                        }
+                    },
+                    {
+                        "Key": "PrimaryImageAltText",
+                        "Value": {
+                            "BooleanValue": null,
+                            "ByteValue": null,
+                            "DateTimeOffsetValue": null,
+                            "DecimalValue": null,
+                            "IntegerValue": null,
+                            "LongValue": null,
+                            "StringValue": "Demo data product image"
+                        }
+                    }
+                ]
+            },
+            {
+                "SuggestionType": "Keyword",
+                "Value": "Cowboy {Boo}ts",
+                "ExtensionProperties": [
+                    {
+                        "Key": "PrimaryImageUri",
+                        "Value": {
+                            "BooleanValue": null,
+                            "ByteValue": null,
+                            "DateTimeOffsetValue": null,
+                            "DecimalValue": null,
+                            "IntegerValue": null,
+                            "LongValue": null,
+                            "StringValue": "Products/2010101.png"
+                        }
+                    },
+                    {
+                        "Key": "PrimaryImageAltText",
+                        "Value": {
+                            "BooleanValue": null,
+                            "ByteValue": null,
+                            "DateTimeOffsetValue": null,
+                            "DecimalValue": null,
+                            "IntegerValue": null,
+                            "LongValue": null,
+                            "StringValue": "Demo data product image"
+                        }
+                    }
+                ]
+            },
+            {
+                "SuggestionType": "Keyword",
+                "Value": "Suede {Boo}t",
+                "ExtensionProperties": [
+                    {
+                        "Key": "PrimaryImageUri",
+                        "Value": {
+                            "BooleanValue": null,
+                            "ByteValue": null,
+                            "DateTimeOffsetValue": null,
+                            "DecimalValue": null,
+                            "IntegerValue": null,
+                            "LongValue": null,
+                            "StringValue": "Products/2010101.png"
+                        }
+                    },
+                    {
+                        "Key": "PrimaryImageAltText",
+                        "Value": {
+                            "BooleanValue": null,
+                            "ByteValue": null,
+                            "DateTimeOffsetValue": null,
+                            "DecimalValue": null,
+                            "IntegerValue": null,
+                            "LongValue": null,
+                            "StringValue": "Demo data product image"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+      "apiSettings":{
+         "baseUrl":"https://rushec-tie-topaz4a3a309f5438ce85ret.cloudax.test.dynamics.com/",
+         "channelId":68719478279,
+         "catalogId":0,
+         "oun":"128",
+         "baseImageUrl":"https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/search?fileName=/",
+         "ratingsReviewsEndpoint":"https://1ecbd55c-8dc7-4f18-86f6-d79af7b78a85.rnr-ppe.ms",
+         "rnr":{
+            "id":"1ecbd55c-8dc7-4f18-86f6-d79af7b78a85",
+            "url":"https://1ecbd55c-8dc7-4f18-86f6-d79af7b78a85.rnr-ppe.ms"
+         }
+      }
+}

@@ -1,0 +1,109 @@
+{
+	"id": "R1Module1",
+	"config": {
+		"hideSearchLabel": "true",
+		"autoSuggestEnabled": "true",
+		"defaultSearchUrl": "https://www.microsoft.com/en-us/search",
+		"searchPlaceholderText": "Search Microsoft.com",
+		"searchQueryStringParameter": "q",
+		"searchText": "Search",
+		"cancelText": "Cancel",
+		"topResultsCount": 5,
+		"imageSettings": {
+			"quality": 80,
+			"lazyload": true,
+			"viewports": {
+				"xs": {
+					"w": 40,
+					"h": 40,
+					"q": "w=40&h=40&q=80&m=6&f=jpg"
+				},
+				"lg": {
+					"w": 40,
+					"h": 40,
+					"q": "w=40&h=40&q=80&m=6&f=jpg"
+				},
+				"xl": {
+					"w": 40,
+					"h": 40,
+					"q": "w=40&h=40&q=80&m=6&f=jpg"
+				}
+			}
+		}
+	},
+	"renderingContext": {
+		"requestUrl": "https://dev.fabrikam.com/fedev",
+		"sitePath": "/fedev",
+		"clientContext": {
+			"deviceType": "Pc"
+		},
+		"staticContext": {
+			"staticCdnUrl": "/_scnr/",
+			"staticCdnUrlWithLocale": "/en-us/_msdyn365/_scnr/"
+		},
+		"user": {
+			"token": null,
+			"isAuthenticated": false,
+			"signInUrl": "https://dev.fabrikam.com/fedev/_msdyn365/signin",
+			"signOutUrl": "https://dev.fabrikam.com/fedev/_msdyn365/signout",
+			"signUpUrl": "https://dev.fabrikam.com/fedev/_msdyn365/signup",
+			"editProfileUrl": "https://dev.fabrikam.com/fedev/_msdyn365/editprofile",
+			"signinName": null,
+			"firstName": null,
+			"lastName": null,
+			"tenantId": "",
+			"customerAccountNumber": null,
+			"name": null,
+			"emailAddress": null
+		},
+		"previewContext": null,
+		"locale": "en-us",
+		"textDirection": "ltr",
+		"suggestedMarket": null,
+		"urlTokens": {},
+		"apiSettings": {
+			"baseUrl": "https://rushec-tie-topaz4a3a309f5438ce85ret.cloudax.test.dynamics.com/",
+			"channelId": 68719478279,
+			"catalogId": 0,
+			"oun": "128",
+			"baseImageUrl": "https://cms-ppe-imageresizer-mr.trafficmanager.net/cms/api/fabrikamsb/imageFileData/search?fileName=/",
+			"ratingsReviewsEndpoint": "https://d247ff89-1bb8-42bf-955e-a731fbc57c75.rnr-ppe.ms",
+			"rnr": {
+				"id": "d247ff89-1bb8-42bf-955e-a731fbc57c75",
+				"url": "https://d247ff89-1bb8-42bf-955e-a731fbc57c75.rnr-ppe.ms"
+			}
+		},
+		"gridSettings": {
+			"xs": {
+				"w": 767
+			},
+			"sm": {
+				"w": 991
+			},
+			"md": {
+				"w": 1199
+			},
+			"lg": {
+				"w": 1599
+			},
+			"xl": {
+				"w": 1600
+			}
+		},
+		"debugMode": 0,
+		"operationId": "10a117e2d5715545afeb4bd0c8634630",
+		"sameSiteRequired": true,
+		"features": {
+			"scnr_blob": true,
+			"disable_cors": true,
+			"action_timeout": true
+		},
+		"telemetrySettings": {
+			"doNotCollectBiData": false,
+			"eventHubEndPoint": "",
+			"eventHubAuthToken": "",
+			"operationId": "10a117e2d5715545afeb4bd0c8634630"
+		}
+	},
+	"typeName": "custom-search"
+}

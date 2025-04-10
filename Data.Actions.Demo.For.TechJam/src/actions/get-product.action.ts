@@ -32,24 +32,6 @@ const createInput = (inputData: Msdyn365.ICreateActionContext<Msdyn365.IGeneric<
  * TODO: Use this function to call your action and process the results as needed
  */
 export async function getSimpleProductAction(input: ProductInput, ctx: Msdyn365.IActionContext): Promise<SimpleProduct> {
-    /*  const { apiSettings } = ctx.requestContext;
-    const requestUrl = `${apiSettings.baseUrl}/Products/${input.productId}`;
-    return sendCommerceRequest<SimpleProduct>(requestUrl, 'get')
-        .then((response: IHTTPResponse<SimpleProduct>) => {
-            if (response.data) {
-                return response.data;
-            } else {
-                ctx.telemetry.trace('[getSimpleProductAction] Invalid response from server');
-                return <SimpleProduct>{};
-            }
-        })
-        .catch((error: IHTTPError) => {
-            ctx.telemetry.trace(error.message);
-            ctx.telemetry.trace(error.stack || '');
-            ctx.telemetry.trace(`Unable to Fetch Product.`);
-            return <SimpleProduct>{};
-        }); */
-
     const results = await ProductsDataActions.getByIdsAsync(
         {
             callerContext: ctx,

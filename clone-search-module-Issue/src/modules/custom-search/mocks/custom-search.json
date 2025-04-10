@@ -1,0 +1,12 @@
+{
+	"id": "R1Module1",
+	"config": {
+		"hideSearchLabel": "false",
+		"defaultSearchUrl": "https://www.microsoft.com/en-us/search",
+		"searchPlaceholderText": "Search",
+		"searchQueryStringParameter": "q",
+		"searchText": "Search",
+		"cancelText": "Cancel"
+	},
+	"typeName": "custom-search"
+}
